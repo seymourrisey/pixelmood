@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelmood</title>
+    <link rel="icon" href="pixelmood-ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="title">PIXELMOOD</h1>
+
+        <div class="upload-area" id="uploadArea">
+            <p>Drag your image here</p>
+            <input type="file" id="fileInput" hidden accept="image/*">
+        </div>
+        <button class="upload-btn" id="uploadBtn">UPLOAD</button>
+
+        <div class="preview-section">
+            <div class="preview-box" id="originalPreview">
+                <span>preview original image</span>
+                <img src="" alt="Original" style="display:none;">
+            </div>
+
+            <div class="arrow">➜</div>
+
+            <div class="preview-box" id="pixelatedPreview">
+                <span>pixelated image preview</span>
+                <img src="" alt="Pixelated" style="display:none;">
+            </div>
+        </div>
+
+        <button class="download-btn" id="downloadBtn">DOWNLOAD IMAGE</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
