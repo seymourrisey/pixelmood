@@ -10,6 +10,9 @@ A simple web application to convert images into pixel art.
 
 Pixelmood is a small project built with HTML, CSS, and JavaScript. This tool allows users to upload an image and instantly transform it into a pixelated version.
 
+### Pixelmood Demo
+[![Watch the demo](https://img.shields.io/badge/YouTube-Demo-red?logo=youtube)](https://youtu.be/OfwzgqNoaj4?feature=shared)
+
 ## Features
 
 -   **Image Upload:** Select and upload an image file from your computer.
